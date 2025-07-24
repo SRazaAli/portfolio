@@ -1,0 +1,8 @@
+aceternity ui ---- UI components
+Motion        ---- transitions
+sketchfab     ---- 3D Models
+Bento grid    ---- Modern grid styles
+Magic UI      ---- interactive UI components
+
+@react-three fiber ---- library for 3d model integration
+@react-three drei  --- helper for raect-three to add draggable functionalities 
