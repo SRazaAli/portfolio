@@ -4,7 +4,9 @@ import {experiences} from '../Constants/index'
 
 const Experiences = () => {
   return (
-    <div className='w-full'>
+    <div
+    id='work'
+     className='w-full'>
         <Timeline data = {experiences}/>
     </div>
   )

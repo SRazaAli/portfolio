@@ -1,33 +1,34 @@
 const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Apple - Modern UI/UX clone",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A sleek and responsive Apple.com-inspired website clone that replicates Apple’s modern design aesthetics with interactive animations and a realistic 3D product showcase to deliver a premium user experience.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Integrated GSAP and ScrollTrigger to implement smooth scroll-based animations and engaging UI transitions.",
+      "Rendered a realistic 3D iPhone model using Three.js to enhance product visualization.",
+      "Designed a fully responsive layout with Tailwind CSS, optimized for all devices.",
+      "Utilized component-based structure for clean, reusable code and better scalability.",
     ],
-    href: "",
+
+    href: "https://srazaali.github.io/apple-website/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/apple-website.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React.js",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Three.js",
+        path: "/assets/logos/three-js-icon.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "GSAP",
+        path: "/assets/logos/gsap-greensock.svg",
       },
       {
         id: 4,
@@ -38,36 +39,31 @@ const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Brainwave – Modern UI/UX website",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Brainwave is a high-impact, modern tech landing page designed to showcase the capabilities of an AI startup or digital SaaS product. ",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
+      "Developed a sleek AI-focused landing page to simulate a real-world SaaS product showcase.",
+      "Implemented a fully responsive layout using React and Tailwind CSS.",
+      "Crafted dynamic, scroll-based animations Framer Motion to create an engaging and interactive user experience.",
+    ]
+    ,
+    href: "https://srazaali.github.io/brainwave-website/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/brainwave-website.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
+        name: "React.js",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        id: 2,
+        name: "Motion",
+        path: "/assets/logos/framer-motion.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -75,152 +71,147 @@ const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Yummy - Food Ordering Web App",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Developed a Full stack Food Ordering Web Application using Node.js and SQL server database.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+      "Built separate customer-facing and admin workflows: allowing menu browsing, order placement, and responsive order management.",
+      "Managed menu items, categories, and orders with CRUD operations and a dynamic admin dashboard.",
+      "Integrated payment processing , enhancing the real-world applicability of the platform."
+    ]
+    ,
+    href: "https://github.com/SRazaAli/Food-Ordering-Management-System.git",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/food-ordering-mgmt-system.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "SQL Server",
+        path: "/assets/logos/sql-server.svg",
+      },
+
+    ],
+  },
+  {
+    id: 5,
+    title: "Arbisoft - A UI/UX clone",
+    description:
+      "This project is a clean and modern recreation of Arbisoft’s official company website.",
+    subDescription: [
+      "Built interactive service sections to mirror real offerings.",
+      "Incorporated client testimonials and industry credibility elements to simulate corporate trust and branding.",
+      "Applied smooth scroll-triggered animations and hover effects to enrich user engagement.",
+      "Optimized for pixel-perfect responsiveness across desktop and mobile screens."
+    ]
+    ,
+    href: "https://srazaali.github.io/arbisoft-clone/",
+    logo: "",
+    image: "/assets/projects/arbisoft.jpg",
+    tags: [
+       {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Wilson Sporting Goods - Ecommerce store",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "An E-commerce sporting gear showcase platform, emphasizing product browsing, category navigation, and visual appeal.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Features 3 different brands for user to navigate through their products.",
+      "Detailed product pages where user can dive deep into product descriptions.",
+      "User can download the specs sheets of the products.",
+      "focused on creating a responsive design that works beautifully across all devices.",
     ],
-    href: "",
+    href: "https://srazaali.github.io/Wilson-Sporting-Goods/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/wilson-sporting-goods.jpg",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "HTML",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
+        id: 2,
+        name: "CSS",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
+  
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
@@ -243,87 +234,95 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
+    title: "Diploma In Software Engineering (DISM)",
+    job: "Aptech",
     date: "2021-2023",
+  contents: [
+    "Completed a comprehensive 2-year program covering full-stack software development through 4 progressive semesters.",
+    "✅ Front-End Development: Learned HTML5, CSS3, JavaScript, Bootstrap and jQuery to build responsive and interactive user interfaces.",
+    "✅ Back-End Development: Gained hands-on experience with Node.js, Express.js, and database integration using MySQL.",
+    "✅ Full-Stack Projects: Combined front-end and back-end knowledge to create real-world applications and deploy working systems.",
+    "✅ Learned the importance of software security, version control (Git), debugging, and testing throughout the development lifecycle."
+  ],
+}
+,
+   {
+    title: "BSCS",
+    job: "Bahria University Karachi Campus",
+    date: "2023-Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
+    "Pursuing a 4-year undergraduate degree focused on core areas such as algorithms, data structures, databases, web development, and software engineering.",
+    "Build a personal developer portfolio using Three.js, React, Vite, and WebAPI to showcase projects and technical expertise.",
+    "Actively enrolled in external courses to supplement academic knowledge and gain certifications from Coursera and Udemy.",
+    "Engaged in team-based academic projects that reflect real-world software development processes, including documentation, version control, and testing.",
+    "Exploring areas like computer networks, compiler construction, and AI as part of the ongoing curriculum.",
+  ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Fullstack Developer Intern",
+    job: "InternnCraft",
+    date: "2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built and deployed three full-stack web applications using React, Node.js, Express, and SQL.",
+      "Worked with REST APIs, authentication systems, and real-time user interfaces.",
+      "Collaborated with mentors to improve code quality and learned industry-standard practices.",
     ],
   },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+ 
 ];
 export const reviews = [
+  
+  
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "Developing Back-End Apps With Node.Js",
+    username: "Credential ID CV769X42JPR2",
+    body: "Coursera – IBM — Sep 2024",
+    img: "/assets/logos/ibm.png",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "Fullstack Developer Intern",
+    username: "Certificate of Completion",
+    body: "InternnCraft - Aug 2024",
+    img: "/assets/logos/internncraft.jpg",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "AI Fundamentals Bootcamp",
+    username: "Certificate of Participation",
+    body: "BUCIS – BUKC – Aug 2024",
+    img: "/assets/logos/bucis.jpg",
+  },
+  
+  {
+    name: "Intro to MERN Stack Bootcamp",
+    username: "Certificate of Participation",
+    body: "BUCIS – BUKC – July 2024",
+    img: "/assets/logos/bucis.jpg",
+
+  },
+    {
+    name: "Generative AI & LLM’s Workshop",
+    username: "Certificate of Participation",
+    body: "Connect AI – BUAIC – May 2025",
+    img: "/assets/logos/buaic.jpg",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "Code in the Dark",
+    username: "Certificate of Participation",
+    body: "Supercomp’24 – BUKC – Dec 2024",
+      img: "/assets/logos/bucis.jpg",
+
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    name: " SQL: Introduction For Querying Databases",
+    username: "Credential ID D1UBYQ83E3BM",
+    body: "Coursera – IBM — Dec 2024",
+    img: "/assets/logos/ibm.png",
   },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+   {
+    name: "Speed Programming ",
+    username: "Certificate of Participation",
+    body: "Coders Clash – BUCIS – May 2024",
+    img: "/assets/logos/bucis.jpg",
   },
 ];
 

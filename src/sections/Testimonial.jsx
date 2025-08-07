@@ -35,7 +35,7 @@ const ReviewCard = ({
 export function Testimonial() {
   return (
     <div className="items-start mt-25 md:mt-35 c-space ">
-        <h2 className="text-heading">Hear From My Clients</h2>
+        <h2 className="text-heading">My Certifications</h2>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-12">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (

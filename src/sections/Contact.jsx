@@ -7,20 +7,20 @@ const Contact = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
     const [isLoading, setIsLoading] = useState(false);
     const [showAlert, setShowAlert] = useState(false);
-    const [alertType,setAlertType] = useState("success");
-    const [alertMessage,setAlertMessage]  = useState("");
+    const [alertType, setAlertType] = useState("success");
+    const [alertMessage, setAlertMessage] = useState("");
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     }
 
-    const generateAlert =(type,message) =>{
-            setAlertType(type);
-            setAlertMessage(message)
-            setShowAlert(true);
-            setTimeout(()=>{
-                setShowAlert(false);
-            },5000)
+    const generateAlert = (type, message) => {
+        setAlertType(type);
+        setAlertMessage(message)
+        setShowAlert(true);
+        setTimeout(() => {
+            setShowAlert(false);
+        }, 5000)
     }
 
     const handleSubmit = async (e) => {
@@ -41,25 +41,27 @@ const Contact = () => {
                 "tm12gIUs8cHQ6Xzj5"
             )
             setIsLoading(false);
-            setFormData({name:"",email:"",message:""});
-            generateAlert("success","Your message has been sent successfully");
+            setFormData({ name: "", email: "", message: "" });
+            generateAlert("success", "Your message has been sent successfully");
         }
         catch (error) {
             setIsLoading(false);
             console.log(error)
-            generateAlert("danger","There was an error");
+            generateAlert("danger", "There was an error");
         }
     }
     return (
-        <section className='relative flex items-center c-space section-spacing '>
-             <Particles
-        className="absolute inset-0 -z-50"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
-      />
-        {showAlert && <Alert type={alertType} message={alertMessage} />}
+        <section
+            id="contact"
+            className='relative flex items-center c-space section-spacing '>
+            <Particles
+                className="absolute inset-0 -z-50"
+                quantity={100}
+                ease={80}
+                color={"#ffffff"}
+                refresh
+            />
+            {showAlert && <Alert type={alertType} message={alertMessage} />}
 
             <div className='flex flex-col items-center justify-content-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary '>
                 <div className='flex flex-col items-start w-full gap-5 mb-10'>

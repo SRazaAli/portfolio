@@ -18,12 +18,6 @@ const App = () => {
         <Testimonial />
         <Contact />
         <Footer />
-       {/* about */}
-       {/* projects */}
-       {/* experience */}
-       {/* testimonial */}
-       {/* contact */}
-       {/* footer */}
     </div>
   );
 }

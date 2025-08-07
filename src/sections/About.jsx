@@ -9,7 +9,7 @@ import ShowResumeButton from "../components/ShowResumeButton";
 const About = () => {
     const grid2Container = useRef();
     return (
-        <section className="c-space section-spacing">
+        <section id="about" className="c-space section-spacing">
             <h2 className="text-heading">About Me</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
                 {/* Grid 1 */}
@@ -20,8 +20,8 @@ const About = () => {
                         className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-[50] md:inset-y-10 lg:scale-[2.5]"
                     />
                     <div className="z-10">
-                        <p className="head-text">Hi I'm Raza Ali</p>
-                        <p className="sub-text">Over the past 2 years I have been developing my frontend and backend dev skills to deliver dynamic and robust software and web dev solutions.</p>
+                        <p className="head-text">Hi I'm Syed Raza Ali</p>
+                        <p className="sub-text">Over the past 3 years I have been developing my frontend and backend dev skills to deliver dynamic and robust software and web dev solutions.</p>
                     </div>
                     <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
                 </div>
