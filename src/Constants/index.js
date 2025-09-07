@@ -13,27 +13,27 @@ const myProjects = [
 
     href: "https://srazaali.github.io/apple-website/",
     logo: "",
-    image: `${import.meta.env.BASE_URL} +assets/projects/apple-website.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/apple-website.jpg`,
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: `${import.meta.env.BASE_URL} +assets/logos/react.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
       },
       {
         id: 2,
         name: "Three.js",
-        path: `${import.meta.env.BASE_URL} +assets/logos/three-js-icon.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/three-js-icon.svg`,
       },
       {
         id: 3,
         name: "GSAP",
-        path: `${import.meta.env.BASE_URL} +assets/logos/gsap-greensock.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/gsap-greensock.svg`,
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: `${import.meta.env.BASE_URL} +assets/logos/tailwindcss.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/tailwindcss.svg`,
       },
     ],
   },
@@ -50,22 +50,21 @@ const myProjects = [
     ,
     href: "https://srazaali.github.io/brainwave-website/",
     logo: "",
-    image: `${import.meta.env.BASE_URL} +assets/projects/brainwave-website.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/brainwave-website.jpg`,
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: `${import.meta.env.BASE_URL} +assets/logos/react.svg",
-  `  },
+        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`  },
       {
         id: 2,
         name: "Motion",
-        path: `${import.meta.env.BASE_URL} +assets/logos/framer-motion.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/framer-motion.svg`,
       },
       {
         id: 3,
         name: "TailwindCSS",
-        path: `${import.meta.env.BASE_URL} +assets/logos/tailwindcss.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/tailwindcss.svg`,
       },
     ],
   },
@@ -82,29 +81,26 @@ const myProjects = [
     ,
     href: "https://github.com/SRazaAli/Food-Ordering-Management-System.git",
     logo: "",
-    image: `${import.meta.env.BASE_URL} +assets/projects/food-ordering-mgmt-system.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/food-ordering-mgmt-system.jpg`,
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: `${import.meta.env.BASE_URL} +assets/logos/html5.svg",
-
-  `   },
+        path: `${import.meta.env.BASE_URL}assets/logos/html5.svg`   },
       {
         id: 2,
         name: "CSS",
-        path: `${import.meta.env.BASE_URL} +assets/logos/css3.svg",
-
-  `  },
+        path: `${import.meta.env.BASE_URL}assets/logos/css3.svg`
+        },
       {
         id: 3,
         name: "Node.js",
-        path: `${import.meta.env.BASE_URL} +assets/logos/nodejs.svg",
-  `   },
+        path: `${import.meta.env.BASE_URL}assets/logos/nodejs.svg`
+         },
       {
         id: 4,
         name: "SQL Server",
-        path: `${import.meta.env.BASE_URL} +assets/logos/sql-server.svg"`
+        path: `${import.meta.env.BASE_URL}assets/logos/sql-server.svg`
       },
 
     ],
@@ -123,22 +119,21 @@ const myProjects = [
     ,
     href: "https://srazaali.github.io/arbisoft-clone/",
     logo: "",
-    image: `${import.meta.env.BASE_URL} +assets/projects/arbisoft.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/arbisoft.jpg`,
     tags: [
        {
         id: 1,
         name: "HTML",
-        path: `${import.meta.env.BASE_URL} +assets/logos/html5.svg",
-  `  },
+        path: `${import.meta.env.BASE_URL}assets/logos/html5.svg`  },
       {
         id: 2,
         name: "CSS",
-        path: `${import.meta.env.BASE_URL} +assets/logos/css3.svg",
-    ` },
+        path: `${import.meta.env.BASE_URL}assets/logos/css3.svg` },
       {
         id: 3,
         name: "Bootstrap",
-        path: `${import.meta.env.BASE_URL} +assets/logos/bootstrap.svg`,      },
+        path: `${import.meta.env.BASE_URL}assets/logos/bootstrap.svg`
+           },
     ],
   },
   {
@@ -154,22 +149,22 @@ const myProjects = [
     ],
     href: "https://srazaali.github.io/Wilson-Sporting-Goods/",
     logo: "",
-    image: `${import.meta.env.BASE_URL} +assets/projects/wilson-sporting-goods.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/wilson-sporting-goods.jpg`,
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: `${import.meta.env.BASE_URL} +assets/logos/html5.svg",
-  `  },
+        path: `${import.meta.env.BASE_URL}assets/logos/html5.svg`
+    },
       {
         id: 2,
         name: "CSS",
-        path: `${import.meta.env.BASE_URL} +assets/logos/css3.svg",
-    ` },
+        path: `${import.meta.env.BASE_URL}assets/logos/css3.svg`,
+     },
       {
         id: 3,
         name: "Javascript",
-        path: `${import.meta.env.BASE_URL} +assets/logos/javascript.svg"`
+        path: `${import.meta.env.BASE_URL}assets/logos/javascript.svg`
       },
     ],
   },  
@@ -179,17 +174,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: `${import.meta.env.BASE_URL} +assets/socials/whatsApp.svg`
+    icon: `${import.meta.env.BASE_URL}assets/socials/whatsApp.svg`
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/ali-sanati/",
-    icon: `${import.meta.env.BASE_URL} +assets/socials/linkedIn.svg`
+    icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: `${import.meta.env.BASE_URL} +assets/socials/instagram.svg`,
+    icon: `${import.meta.env.BASE_URL}assets/socials/instagram.svg`,
   },
 ];
 
@@ -238,39 +233,39 @@ export const reviews = [
     name: "Developing Back-End Apps With Node.Js",
     username: "Credential ID CV769X42JPR2",
     body: "Coursera – IBM — Sep 2024",
-    img: `${import.meta.env.BASE_URL} +assets/logos/ibm.png`,
+    img: `${import.meta.env.BASE_URL}assets/logos/ibm.png`,
   },
    {
     name: "Fullstack Developer Intern",
     username: "Certificate of Completion",
     body: "InternnCraft - Aug 2024",
-    img: `${import.meta.env.BASE_URL} + assets/logos/internncraft.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/logos/internncraft.jpg`,
   },
   {
     name: "AI Fundamentals Bootcamp",
     username: "Certificate of Participation",
     body: "BUCIS – BUKC – Aug 2024",
-    img: `${import.meta.env.BASE_URL} +assets/logos/bucis.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/logos/bucis.jpg`,
   },
   
   {
     name: "Intro to MERN Stack Bootcamp",
     username: "Certificate of Participation",
     body: "BUCIS – BUKC – July 2024",
-    img: `${import.meta.env.BASE_URL} +assets/logos/bucis.jpg`
+    img: `${import.meta.env.BASE_URL}assets/logos/bucis.jpg`
   }
   ,
     {
     name: "Generative AI & LLM’s Workshop",
     username: "Certificate of Participation",
     body: "Connect AI – BUAIC – May 2025",
-    img: `${import.meta.env.BASE_URL} +assets/logos/buaic.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/logos/buaic.jpg`,
   },
   {
     name: "Code in the Dark",
     username: "Certificate of Participation",
     body: "Supercomp’24 – BUKC – Dec 2024",
-      img: `${import.meta.env.BASE_URL} +assets/logos/bucis.jpg`
+      img: `${import.meta.env.BASE_URL}assets/logos/bucis.jpg`
     }
 
   ,
@@ -278,13 +273,13 @@ export const reviews = [
     name: " SQL: Introduction For Querying Databases",
     username: "Credential ID D1UBYQ83E3BM",
     body: "Coursera – IBM — Dec 2024",
-    img: `${import.meta.env.BASE_URL} +assets/logos/ibm.png`
+    img: `${import.meta.env.BASE_URL}assets/logos/ibm.png`
   },
   {
     name: "Speed Programming ",
     username: "Certificate of Participation",
     body: "Coders Clash – BUCIS – May 2024",
-    img: `${import.meta.env.BASE_URL} +assets/logos/bucis.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/logos/bucis.jpg`,
   }
 ];
 

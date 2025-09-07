@@ -30,7 +30,7 @@ const Projects = () => {
                     description={projectItem.description}
                     subDescription={projectItem.subDescription}
                     href={projectItem.href}
-                    image={import.meta.env.BASE_URL + projectItem.image}
+                    image={projectItem.image}
                     tags={projectItem.tags}
                     setPreview = {setPreview}
 
